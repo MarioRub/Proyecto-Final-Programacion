@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD:Proyecto-Final-Programacion.pro.user
 <!-- Written by QtCreator 3.6.1, 2016-06-02T11:57:28. -->
+=======
+<!-- Written by QtCreator 3.6.1, 2016-06-10T13:01:13. -->
+>>>>>>> refs/remotes/origin/master:Proyecto-Final-Programacion.pro.user
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -283,8 +287,13 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Proyecto-Final-Programacion</value>
+<<<<<<< HEAD:Proyecto-Final-Programacion.pro.user
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Proyecto-Final-Programacion2</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/MarioRub/Desktop/Proyecto-Final-Programacion3/Proyecto-Final-Programacion.pro</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/MarioRub/Documents/Proyecto-Final-Programacion/Proyecto-Final-Programacion.pro</value>
+>>>>>>> refs/remotes/origin/master:Proyecto-Final-Programacion.pro.user
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">Proyecto-Final-Programacion.pro</value>

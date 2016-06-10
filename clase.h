@@ -6,19 +6,21 @@ class clase
 {
 public:
     clase();
-    int aula;
-    char * catedratico;
-    int dias;
+
+
+
     void setAula(int);
-    int getAula();
+    int getAula() const;
     void setDias(int);
-    int getDias();
-    void set
+    int getDias() const;
+    void setCatedratico(char *);
+    char * getCatedratico() const;
 
 
 private:
-
-
+    int aula;
+    int dias;
+    char * catedratico;
 };
 
 #endif // CLASE_H

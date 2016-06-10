@@ -9,7 +9,7 @@ clase::clase()
 
 
 void clase::setAula(int aula){
-   if(aula>0 && aula<50)
+   if(aula>0 && aula=<50)
     this->aula=aula;
    else
        aula=0;

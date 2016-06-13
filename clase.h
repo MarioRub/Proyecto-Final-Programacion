@@ -2,13 +2,10 @@
 #define CLASE_H
 
 
-class clase
+class clase: public Curso
 {
 public:
-    clase();
-
-
-
+    clase(int,const char*,int, int,int,int, char*);
     void setAula(int);
     int getAula() const;
     void setDias(int);

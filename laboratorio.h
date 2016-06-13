@@ -2,10 +2,10 @@
 #define LABORATORIO_H
 
 
-class laboratorio
+class laboratorio:public Curso
 {
 public:
-    laboratorio();
+    laboratorio(int,const char*,int, int,char*,int);
     void setno_Laboratorio(int);
     void setInstructor(char *);
     int getno_Laboratorio const;

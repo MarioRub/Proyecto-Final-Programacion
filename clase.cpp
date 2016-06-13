@@ -1,6 +1,6 @@
 #include "clase.h"
 
-clase::clase()
+clase::clase(int codigo,const char* nombre,int matriculados, int hora, int aula,int dias,char* catedratico):Curso(codigo,nombre,matriculados,hora)
 {
     delete[] this->catedratico;
     aula=0;

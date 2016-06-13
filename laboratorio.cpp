@@ -1,6 +1,6 @@
 #include "laboratorio.h"
 
-laboratorio::laboratorio()
+laboratorio::laboratorio(int codigo,const char* nombre,int matriculados, int hora,char* no_laboratorio,int instructor): Curso(codigo,nombre,matriculados,hora)
 {
     no_Laboratorio=0;
     delete[] this->instructor;

@@ -3,7 +3,7 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-Lista::Lista(int codigo,const char* nombre,int matriculados, int hora,char * nombreArchivo):Curso(codigo,nombre,matriculados,hora)
+Lista::Lista(int codigo,const char* nombre,int matriculados, int hora):Curso(codigo,nombre,matriculados,hora)
 {
 
        inicio = 0;
@@ -26,7 +26,7 @@ Lista::~Lista()
 
 }
 
-void ListaEnlazada::insertarAlinicio(Curso * nuevo)
+void Lista::insertarAlinicio(Curso * nuevo)
 {
     if ( inicio == 0)
     {
@@ -40,7 +40,7 @@ void ListaEnlazada::insertarAlinicio(Curso * nuevo)
     }
 }
 
-void ListaEnlazada::insertarAlFinal(Curso * nuevo)
+void Lista::insertarAlFinal(Curso * nuevo)
 {
      if ( inicio == 0)
     {

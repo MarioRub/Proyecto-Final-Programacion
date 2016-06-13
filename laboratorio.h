@@ -1,18 +1,18 @@
 #ifndef LABORATORIO_H
 #define LABORATORIO_H
+#include"curso.h"
 
-
-class laboratorio
+class laboratorio:public Curso
 {
 public:
-    laboratorio();
+    laboratorio(int,const char*,int, int,char*,int);
     void setno_Laboratorio(int);
-    void setInstructor(char *);
-    int getno_Laboratorio const;
-    char * getInstructor const;
+    void setInstructor(char*);
+    int getno_Laboratorio() const;
+    const char * getInstructor() const;
 private:
-    char * no_Laboratorio;
-    int instructor;
+    char * instructor;
+    int no_Laboratorio;
 };
 
 #endif // LABORATORIO_H

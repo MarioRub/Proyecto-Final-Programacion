@@ -1,6 +1,8 @@
 #include "clase.h"
-
-clase::clase(int codigo,const char* nombre,int matriculados, int hora, int aula,int dias,char* catedratico):Curso(codigo,nombre,matriculados,hora)
+#include<iostream>
+#include<cstring>
+using namespace std;
+clase::clase(int codigo,const char* nombre,int matriculados, int hora, int aula,int dias,const char * catedratico):Curso(codigo,nombre,matriculados,hora)
 {
     delete[] this->catedratico;
     aula=0;
@@ -9,7 +11,7 @@ clase::clase(int codigo,const char* nombre,int matriculados, int hora, int aula,
 
 
 void clase::setAula(int aula){
-   if(aula>0 && aula=<50)
+   if(aula>0 && aula <=50)
     this->aula=aula;
    else
        aula=0;
@@ -34,6 +36,6 @@ void clase::setCatedratico(char * catedratico){
     strcpy(this->catedratico,catedratico);
 }
 
-char * clase::getCatedratico() const{
+const char * clase::getCatedratico() const{
     return catedratico;
 }

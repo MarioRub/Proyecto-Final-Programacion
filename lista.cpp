@@ -26,7 +26,7 @@ Lista::~Lista()
 
 }
 
-void ListaEnlazada::insertarAlinicio(Curso * nuevo)
+void Lista::insertarAlinicio(Curso * nuevo)
 {
     if ( inicio == 0)
     {
@@ -40,7 +40,7 @@ void ListaEnlazada::insertarAlinicio(Curso * nuevo)
     }
 }
 
-void ListaEnlazada::insertarAlFinal(Curso * nuevo)
+void Lista::insertarAlFinal(Curso * nuevo)
 {
      if ( inicio == 0)
     {

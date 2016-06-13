@@ -1,6 +1,6 @@
 #ifndef LISTA_H
 #define LISTA_H
-
+#include"curso.h"
 
 class Lista:public Curso
 {

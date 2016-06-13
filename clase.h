@@ -1,17 +1,17 @@
 #ifndef CLASE_H
 #define CLASE_H
-
+#include "curso.h"
 
 class clase: public Curso
 {
 public:
-    clase(int,const char*,int, int,int,int, char*);
+    clase(int,const char*,int, int,int,int,const char*);
     void setAula(int);
     int getAula() const;
     void setDias(int);
     int getDias() const;
     void setCatedratico(char *);
-    char * getCatedratico() const;
+    const char * getCatedratico() const;
 
 
 private:

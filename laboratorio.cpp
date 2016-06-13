@@ -1,5 +1,7 @@
 #include "laboratorio.h"
-
+#include<iostream>
+#include<cstring>
+using namespace std;
 laboratorio::laboratorio(int codigo,const char* nombre,int matriculados, int hora,char* no_laboratorio,int instructor): Curso(codigo,nombre,matriculados,hora)
 {
     no_Laboratorio=0;
@@ -7,10 +9,10 @@ laboratorio::laboratorio(int codigo,const char* nombre,int matriculados, int hor
 }
 
 void laboratorio::setno_Laboratorio(int no_Laboratorio){
-    if(no_Laboratorio>0 && no_Laboratorio=<10)
-        this->laboratorio=laboratorio;
+    if(no_Laboratorio>0 && no_Laboratorio<=10)
+        this->no_Laboratorio = no_Laboratorio;
     else
-        this->laboratorio=1;
+        this->no_Laboratorio=1;
 }
 
 void laboratorio::setInstructor(char * instructor){
@@ -19,9 +21,12 @@ void laboratorio::setInstructor(char * instructor){
     strcpy(this->instructor,instructor);
 }
 
-int laboratorio::getno_Laboratorio const{
+int laboratorio::getno_Laboratorio() const{
+
     return no_Laboratorio;
 }
-char * laboratorio::getInstructor const{
+
+
+const char * laboratorio::getInstructor() const{
     return instructor;
 }

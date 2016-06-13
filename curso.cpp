@@ -30,7 +30,7 @@ Curso::~Curso()
 
 void Curso::setSiguiente(Curso* nuevo)
 {
-    this->setSiguiente() = nuevo;
+ this->setSiguiente(nuevo);
 
 }
 
@@ -41,7 +41,7 @@ Curso* Curso::getSiguiente()
 
 void Curso::setAnterior(Curso* nuevo)
 {
-    this->setAnterior() = nuevo;
+    this->setAnterior(nuevo);
 }
 
 Curso* Curso::getAnterior()
@@ -101,7 +101,7 @@ int Curso::getHora() const
     return hora;
 }
 
-void Curso::getCupo() const
+int Curso::getCupo() const
 {
     return 0;
 }

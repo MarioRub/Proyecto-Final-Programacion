@@ -2,15 +2,14 @@
 #define LISTA_H
 
 
-class Lista
+class Lista:public Curso
 {
     public:
-        Lista(char *);
+        Lista(int,const char*,int, int);
         virtual ~Lista();
 
         void insertarAlinicio(Curso *);
         void insertarAlFinal(Curso *);
-        void agregarCurso(int,const char*,int, int);
         void guardarArchivoAleatorio();
         void leerArchivoAleatorio();
 
@@ -20,7 +19,6 @@ class Lista
          Curso * fin;
 
     private:
-        char  nombreArchivo[30];
 
 };
 

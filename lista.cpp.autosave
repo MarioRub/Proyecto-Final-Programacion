@@ -3,7 +3,7 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-Lista::Lista(int codigo,const char* nombre,int matriculados, int hora,char * nombreArchivo):Curso(codigo,nombre,matriculados,hora)
+Lista::Lista(int codigo,const char* nombre,int matriculados, int hora):Curso(codigo,nombre,matriculados,hora)
 {
 
        inicio = 0;

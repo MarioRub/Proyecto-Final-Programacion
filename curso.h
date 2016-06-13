@@ -23,7 +23,11 @@ class Curso
         int getMatriculados() const;
         int getHora() const;
 
+<<<<<<< HEAD
         virtual void getCupo() const =0;
+=======
+        virtual int getCupo() const =0;
+>>>>>>> origin/MarioRub
 
     protected:
 

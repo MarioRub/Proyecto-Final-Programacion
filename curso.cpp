@@ -30,7 +30,11 @@ Curso::~Curso()
 
 void Curso::setSiguiente(Curso* nuevo)
 {
+<<<<<<< HEAD
     this->setSiguiente() = nuevo;
+=======
+ this->setSiguiente(nuevo);
+>>>>>>> origin/MarioRub
 
 }
 
@@ -41,7 +45,11 @@ Curso* Curso::getSiguiente()
 
 void Curso::setAnterior(Curso* nuevo)
 {
+<<<<<<< HEAD
     this->setAnterior() = nuevo;
+=======
+    this->setAnterior(nuevo);
+>>>>>>> origin/MarioRub
 }
 
 Curso* Curso::getAnterior()
@@ -101,7 +109,11 @@ int Curso::getHora() const
     return hora;
 }
 
+<<<<<<< HEAD
 void Curso::getCupo() const
+=======
+int Curso::getCupo() const
+>>>>>>> origin/MarioRub
 {
     return 0;
 }

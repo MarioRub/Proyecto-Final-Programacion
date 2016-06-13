@@ -16,11 +16,13 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     clase.cpp \
     curso.cpp \
-    laboratorio.cpp
+    laboratorio.cpp \
+    lista.cpp
 
 HEADERS  += mainwindow.h \
     clase.h \
     curso.h \
-    laboratorio.h
+    laboratorio.h \
+    lista.h
 
 FORMS    += mainwindow.ui

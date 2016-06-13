@@ -20,7 +20,7 @@ void clase::setAula(int aula){
 int clase::getAula() const{
     return aula;
 }
-void clase::setDias(int dia){
+void clase::setDias(int dias){
     if(dias>0)
     this->dias=dias;
     else

@@ -12,3 +12,11 @@ AgregarClase::~AgregarClase()
 {
     delete ui;
 }
+
+
+
+
+void AgregarClase::on_comboBoxEleccion_activated(int index)
+{
+    //index=ui->comboBoxEleccion->currentIndex();
+}

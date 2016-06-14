@@ -15,6 +15,13 @@ public:
     explicit AgregarClase(QWidget *parent = 0);
     ~AgregarClase();
 
+private slots:
+    void on_comboBoxEleccion_activated(const QString &arg1);
+
+    void on_comboBoxEleccion_currentIndexChanged(int index);
+
+    void on_comboBoxEleccion_activated(int index);
+
 private:
     Ui::AgregarClase *ui;
 };

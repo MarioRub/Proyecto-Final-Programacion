@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>744</width>
-    <height>335</height>
+    <width>762</width>
+    <height>370</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="comboBoxEleccion">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -23,9 +23,12 @@
       <height>21</height>
      </rect>
     </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
     <item>
      <property name="text">
-      <string>-Elegir Clase o Laboraotorio-</string>
+      <string>-Elegir Clase o Laboratorio-</string>
      </property>
     </item>
     <item>
@@ -52,7 +55,7 @@
      <string>Nombre:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="nombre">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -75,7 +78,7 @@
      <string>Codigo:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="codigo">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -161,7 +164,7 @@
      <string>Aula:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="aula">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -184,7 +187,7 @@
      <string>Catedratico:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="catedratico">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -207,7 +210,7 @@
      <string>Dias:</string>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox_3">
+   <widget class="QComboBox" name="comboBoxdias">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -245,7 +248,7 @@
      <string>No. Laboratorio:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="laboratorio">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -268,7 +271,7 @@
      <string>Instructor:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_6">
+   <widget class="QLineEdit" name="instructor">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -278,13 +281,26 @@
      </rect>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>290</y>
+      <width>441</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>744</width>
+     <width>762</width>
      <height>21</height>
     </rect>
    </property>

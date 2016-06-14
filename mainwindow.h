@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+public slots:
+    void abrirAgregarClase();
+    void abrirVerClase();
 };
 
 #endif // MAINWINDOW_H

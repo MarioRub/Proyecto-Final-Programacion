@@ -17,12 +17,18 @@ SOURCES += main.cpp\
     clase.cpp \
     curso.cpp \
     laboratorio.cpp \
-    lista.cpp
+    lista.cpp \
+    agregarclase.cpp \
+    verclase.cpp
 
 HEADERS  += mainwindow.h \
     clase.h \
     curso.h \
     laboratorio.h \
-    lista.h
+    lista.h \
+    agregarclase.h \
+    verclase.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    agregarclase.ui \
+    verclase.ui

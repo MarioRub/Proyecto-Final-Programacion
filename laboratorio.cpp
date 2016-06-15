@@ -39,4 +39,5 @@ int laboratorio::getCupo() const
 void laboratorio::imprimir() const
 {
     cout<<"Codigo  "<<this->getCodigo()<<endl;
+    cout<<"Nombre "<<this->getNombre()<<endl;
 }

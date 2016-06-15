@@ -28,12 +28,13 @@ void AgregarClase::on_comboBoxEleccion_activated(int index)
 void AgregarClase::on_pushButton_clicked()
 {
     QString Cod = ui->codigo->text();
+    QString nom = ui->codigo->text();
       //QString Mat = ui->;
      // QString Hor = ui->h->text();
       bool ok;
-      int codigo = Cod.toInt(&ok,16);
+      int codigo = Cod.toInt(&ok,10);
 
-      char * nombre = "Luis";
+      const char * nombre = nom.toStdString().c_str();
       int matriculados = 10;
       int hora = 1;
       char * instructor="Pedro";

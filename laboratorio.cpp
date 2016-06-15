@@ -30,3 +30,14 @@ int laboratorio::getno_Laboratorio() const{
 const char * laboratorio::getInstructor() const{
     return instructor;
 }
+
+int laboratorio::getCupo() const
+{
+    return 30;
+}
+
+void laboratorio::imprimir() const
+{
+    cout<<"Codigo  "<<this->getCodigo()<<endl;
+    cout<<"Nombre "<<this->getNombre()<<endl;
+}

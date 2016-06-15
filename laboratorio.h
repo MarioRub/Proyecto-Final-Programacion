@@ -10,6 +10,9 @@ public:
     void setInstructor(char*);
     int getno_Laboratorio() const;
     const char * getInstructor() const;
+    virtual int getCupo() const;
+    void imprimir()const;
+
 private:
     char * instructor;
     int no_Laboratorio;

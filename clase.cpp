@@ -39,3 +39,8 @@ void clase::setCatedratico(char * catedratico){
 const char * clase::getCatedratico() const{
     return catedratico;
 }
+
+int clase::getCupo() const
+{
+    return 12;
+}

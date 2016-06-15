@@ -12,6 +12,7 @@ public:
     int getDias() const;
     void setCatedratico(char *);
     const char * getCatedratico() const;
+    virtual int getCupo() const;
 
 
 private:

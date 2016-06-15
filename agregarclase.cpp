@@ -20,3 +20,9 @@ void AgregarClase::on_comboBoxEleccion_activated(int index)
 {
     //index=ui->comboBoxEleccion->currentIndex();
 }
+
+void AgregarClase::on_pushButton_clicked()
+{
+
+
+}

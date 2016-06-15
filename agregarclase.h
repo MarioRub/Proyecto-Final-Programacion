@@ -22,6 +22,8 @@ private slots:
 
     void on_comboBoxEleccion_activated(int index);
 
+    void on_pushButton_clicked();
+
 private:
     Ui::AgregarClase *ui;
 };

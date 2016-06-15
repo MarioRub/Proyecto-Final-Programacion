@@ -1,6 +1,7 @@
 #include "agregarclase.h"
 #include "ui_agregarclase.h"
 #include"clase.h"
+#include"laboratorio.h"
 #include<iostream>
 
 using namespace std;
@@ -30,8 +31,8 @@ void AgregarClase::on_pushButton_clicked()
       //QString Mat = ui->;
      // QString Hor = ui->h->text();
       bool ok;
-
       int codigo = Cod.toInt(&ok,16);
+
       char * nombre = "Luis";
       int matriculados = 10;
       int hora = 1;
@@ -41,9 +42,10 @@ void AgregarClase::on_pushButton_clicked()
       int dias=1;
       char * catedratico;
 
-      //laboratorio lab = new laboratorio(codigo,nombre,matriculados,hora,instructor,no_Laboratorio);
-      clase * clase1 = new clase(codigo,nombre,matriculados,hora,aulas,dias,catedratico);
+      laboratorio *lab = new laboratorio(codigo,nombre,matriculados,hora,instructor,no_Laboratorio);
+    //  clase * clase1 = new clase(codigo,nombre,matriculados,hora,aulas,dias,catedratico);
       //clase1->imprimir();
+      lab->imprimir();
 
      cout<<"Guardado"<<endl;
 
